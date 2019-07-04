@@ -14,16 +14,15 @@ let mainWindow
 function createWindow () {
   // Create the browser window.
   mainWindow = new BrowserWindow({
-    width: 1080, 
+    x: 0,
+    y: 0,
+    width: 2880, 
     height: 100,
     alwaysOnTop: true,
     darkTheme: true,
-    autoHideMenuBar: true,
-    // transparent: true,
-    // titleBarStyle: "hidden-inset",
+    autoHideMenuBar: false,
     backgroundColor: "#000",
-    // thickFrame: false,
-    frame: false,
+    transparent: true,
   })
 
   // and load the index.html of the app.

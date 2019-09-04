@@ -16,12 +16,11 @@ function createWindow () {
   mainWindow = new BrowserWindow({
     x: 0,
     y: 100,
-    width: 10, 
+    width: 1000, 
     height: 100,
     alwaysOnTop: true,
     darkTheme: true,
     autoHideMenuBar: false,
-    backgroundColor: "#000",
     transparent: true,
   })
 

@@ -15,12 +15,13 @@ function createWindow () {
   // Create the browser window.
   mainWindow = new BrowserWindow({
     x: 0,
-    y: 100,
-    width: 1000, 
-    height: 100,
+    y: 668,
+    width: 1920, 
+    // height: 165,
+    height: 120,
     alwaysOnTop: true,
     darkTheme: true,
-    autoHideMenuBar: false,
+    autoHideMenuBar: true,
     transparent: true,
   })
 
